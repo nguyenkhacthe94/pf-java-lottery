@@ -19,18 +19,16 @@ public class Lottery {
         if (first == a) {
             if (second == b) reward = 10000;
             else reward = 1000;
-        }
-        else {
+        } else {
             if (first == b) {
                 if (second == a) reward = 3000;
                 else reward = 1000;
-            }
-            else {
+            } else {
                 if (second == a || second == b) reward = 1000;
                 else reward = 0;
             }
         }
         System.out.println("Your reward is: " + reward);
-        System.out.println("Special reward number is: "+ lottery);
+        System.out.println("Special reward number is: " + lottery);
     }
 }
